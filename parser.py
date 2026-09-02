@@ -4,7 +4,6 @@
 
 import re
 
-
 def parse_script(text, movie_title):
     """
     Parses raw IMSDb script text into a list of scene dicts.

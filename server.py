@@ -1,5 +1,7 @@
 from fastmcp import FastMCP
 import requests
+import uvicorn
+import starlette
 
 mcp = FastMCP("Movie Summarization MCP")
 
