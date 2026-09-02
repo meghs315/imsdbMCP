@@ -1,5 +1,7 @@
 # Internet Movie Script Database - MCP for Movie Catch Up Tool
 
+This project is an MCP to connect LLM's to the IMSDB database. This MCP is being built to serve a tool that will be able to tell the user a summary of a show so far, so they can catch up without any spoilers. This is the first version, which will require the user to give a summary of what is happening now. In the final verison, the user should be able to input the time stamp, then the LLM will be able to return that summary. 
+
 ## Workflow: 
 1. User gives movie title + a description of where they are
 2. Check cache (SQLite) for that movie title
